@@ -6,6 +6,6 @@
 
 ![MainActivity](https://github.com/talish7/MyMusicApp/blob/main/img/MainActivity.jpg)
 
-![MusicPlayActivity](D:\androiddemo\test_project\MyMusic\img\MusicPlayActivity.jpg)
+![MusicPlayActivity](https://github.com/talish7/MyMusicApp/blob/main/img/MusicPlayActivity.jpg)
 
-![Notification](D:\androiddemo\test_project\MyMusic\img\Notification.jpg)
+![Notification](https://github.com/talish7/MyMusicApp/blob/main/img/Notification.jpg)
