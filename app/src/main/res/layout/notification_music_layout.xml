@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_notification_title_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_notification_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_music_note_24" />
+
+        <TextView
+            android:id="@+id/tv_notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="这是音乐名"
+            android:layout_toRightOf="@id/iv_notification_icon"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_previous"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@android:drawable/ic_media_previous" />
+
+    <ImageView
+        android:id="@+id/iv_play_pause"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@android:drawable/ic_media_pause" />
+
+    <ImageView
+        android:id="@+id/iv_next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@android:drawable/ic_media_next" />
+
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+</LinearLayout>
