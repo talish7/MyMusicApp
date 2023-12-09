@@ -4,7 +4,7 @@
 
 后续更新更多功能
 
-![MainActivity](D:\androiddemo\test_project\MyMusic\img\MainActivity.jpg)
+![MainActivity](https://github.com/talish7/MyMusicApp/blob/main/img/MainActivity.jpg)
 
 ![MusicPlayActivity](D:\androiddemo\test_project\MyMusic\img\MusicPlayActivity.jpg)
 
